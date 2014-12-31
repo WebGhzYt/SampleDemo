@@ -15,7 +15,7 @@ def create
       flash[:info] = "Email sent with password reset instructions"
       redirect_to root_url
     else
-      flash.now[:danger] = "Email address not found"
+      flash.now[:danger] = "Email address not found Sir Ji"
       render 'new'
     end
   end

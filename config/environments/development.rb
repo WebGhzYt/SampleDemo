@@ -43,7 +43,7 @@ Rails.application.configure do
 
 
 
-config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.perform_deliveries = true
@@ -52,8 +52,8 @@ config.action_mailer.default_url_options = { :host => 'localhost:3000' }
     address: "smtp.gmail.com",
     port:     '587',
     domain: "localhost:3000",          
-    user_name: "naveen.ongraph@gmail.com",
-    password: "entertain_16",
+    user_name: "engrohitjain5@gmail.com",
+    password: "rohit_121",
     authentication: "plain", 
     enable_starttls_auto: true
   }
